@@ -16,9 +16,13 @@
     justify-content: center;
 }
 
+.topCenter {
+    flex: 6;
+}
+
 .topIcon {
-    font-size: 20px;
-    margin-right: 10px;
+    font-size: 20px!important;
+    margin-right: 10px!important;
     color: #444;
     cursor: pointer;
 }
@@ -30,6 +34,23 @@
     object-fit: cover;
 }
 
-.topCenter {
-    flex: 6;
+.topList {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.topListItem {
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.searchIcon {
+    font-size: 18px!important;
+    color: #555;
+    cursor: pointer;
 }
