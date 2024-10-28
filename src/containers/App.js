@@ -1,12 +1,11 @@
 import TopBar from "../components/TopBar/TopBar";
+import Home from "../pages/Home/Home";
 
 const App = () => {
   return (
     <div className="App">
       <TopBar />
-      <div className="content">
-        <h1>Content</h1>
-      </div>
+      <Home />
     </div>
   );
 };
