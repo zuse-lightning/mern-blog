@@ -6,9 +6,27 @@ const TopBar = () => {
         <div className="top">
             <div className="topLeft">
                 <Icon name="facebook" size="big" />
+                <Icon name="twitter square" size="big" />
+                <Icon name="instagram" size="big" />
+                <Icon name="pinterest square" size="big" />
             </div>
-            <div className="topCenter">c</div>
-            <div className="topRight">r</div>
+            <div className="topCenter">
+                <ul className="topList">
+                    <li className="topListItem">HOME</li>
+                    <li className="topListItem">ABOUT</li>
+                    <li className="topListItem">CONTACT</li>
+                    <li className="topListItem">WRITE</li>
+                    <li className="topListItem">LOGOUT</li>
+                </ul>
+            </div>
+            <div className="topRight">
+                <img
+                    className="topImg"
+                    src="https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?cs=srgb&dl=pexels-guilhermealmeida-1858175.jpg&fm=jpg&_gl=1*b3jp2g*_ga*MjEyNDc5Mjk0OS4xNzMwMTI4NDE4*_ga_8JE65Q40S6*MTczMDEyODQxOC4xLjEuMTczMDEyOTE1Mi4wLjAuMA.."
+                    alt=""
+                />
+                <Icon name="search" size="big" />
+            </div>
         </div>
     );
 };
